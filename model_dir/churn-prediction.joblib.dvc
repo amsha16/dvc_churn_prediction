@@ -1,0 +1,5 @@
+outs:
+- md5: 797d291d0abea03748dc4ade66baf3cb
+  size: 184809
+  hash: md5
+  path: churn-prediction.joblib
