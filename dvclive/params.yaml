@@ -1,40 +1,19 @@
-objective: binary:logistic
-base_score:
-booster:
-callbacks:
-colsample_bylevel:
-colsample_bynode:
-colsample_bytree:
-device:
-early_stopping_rounds:
-enable_categorical: false
-eval_metric:
-feature_types:
-feature_weights:
-gamma:
-grow_policy:
-importance_type:
-interaction_constraints:
-learning_rate:
-max_bin:
-max_cat_threshold:
-max_cat_to_onehot:
-max_delta_step:
+bootstrap: true
+ccp_alpha: 0.0
+class_weight: balanced
+criterion: gini
 max_depth:
-max_leaves:
-min_child_weight:
-missing: .nan
-monotone_constraints:
-multi_strategy:
-n_estimators:
+max_features: sqrt
+max_leaf_nodes:
+max_samples:
+min_impurity_decrease: 0.0
+min_samples_leaf: 1
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+monotonic_cst:
+n_estimators: 100
 n_jobs:
-num_parallel_tree:
+oob_score: false
 random_state:
-reg_alpha:
-reg_lambda:
-sampling_method:
-scale_pos_weight: 2
-subsample:
-tree_method:
-validate_parameters:
-verbosity:
+verbose: 0
+warm_start: false
