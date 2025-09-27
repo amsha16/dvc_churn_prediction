@@ -1,8 +1,8 @@
 {
-    "Train_accuracy_score": 0.9607843137254902,
-    "Test_accuracy_score": 0.7666666666666667,
-    "Test_precision_score": 0.5454545454545454,
-    "Test_recall_score": 0.75,
-    "Test_f1_score": 0.631578947368421,
-    "AUC_score": 0.8680555555555555
+    "Train_accuracy_score": 0.711484593837535,
+    "Test_accuracy_score": 0.7222222222222222,
+    "Test_precision_score": 0.4827586206896552,
+    "Test_recall_score": 0.5833333333333334,
+    "Test_f1_score": 0.5283018867924528,
+    "AUC_score": 0.7509469696969696
 }
