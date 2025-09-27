@@ -12,14 +12,3 @@ plots:
     title: Confusion Matrix
     x_label: True Label
     y_label: Predicted Label
-artifacts:
-  customertravel:
-    path: data/Customertravel.csv
-    type: dataset
-    desc: Customer travel churn prediction dataset
-    labels:
-    - classification
-    - churn
-  churn-prediction:
-    path: model_dir/churn-prediction.joblib
-    type: model
